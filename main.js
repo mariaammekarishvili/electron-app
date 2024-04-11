@@ -10,7 +10,7 @@ const createWindow = () => {
     }
   })
 
-  win.loadFile('index.html')
+  win.loadFile('camera.html')
 }
 
 app.whenReady().then(() => {
@@ -27,4 +27,4 @@ app.on('window-all-closed', () => {
   if (process.platform !== 'darwin') {
     app.quit()
   }
-})
+})  
